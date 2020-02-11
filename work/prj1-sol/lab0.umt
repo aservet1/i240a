@@ -1,0 +1,549 @@
+		 C S  A c c o u n t  S e t u p
+
+This lab guides you through setting up your CS account for this
+course.  The specific steps include the following:
+
+  # Start up a lab session so that all your interaction with a
+    terminal gets logged into a file which will be submitted
+    at the end of the lab to verify that you completed the lab.
+
+  # Creating a ssh key for convenient access to your CS account.
+
+  # Including course-specific initialization in the session
+    initialization files for your CS account.
+
+  # Setting up your CS account to automatically grab a copy
+    of the course repository.
+
+  # Creating a github account for submitting your labs and
+    projects.
+
+  # Submitting your lab using your newly created github account.
+
+Along the way you will get some experience using the Unix command-line
+and git.  Subsequent labs will explore these topics in more depth.
+
+                 Starting up a Lab Session
+		 =========================
+
+You should have received an email giving you your login credentials
+for the CS lab machines.  Use these credentials to login to your lab
+workstation.
+
+If you have not already changed your login password, you *must* do
+so immediately; simply use the `passwd` command and provide
+information as per the prompts.
+
+
+                            Ensuring bash
+			    -------------
+
+The course assumes that you are running the "bourne again shell" `bash`.
+To verify which shell you are running, type in the following command:
+
+.code(lang=sh)
+```
+$ ps -p $$
+  PID TTY          TIME CMD
+ 4419 pts/2    00:00:00 bash
+$
+```
+
+The actual output of your command will differ from what you see above;
+what is important is that you verify that the `CMD` is indeed `bash`.
+
+If this is not the case, you can start a `bash` shell by simply typing
+in the `bash` command. For a long-term fix, you can change your login
+shell by visiting the .<http://sysadmin.cs.binghamton.edu> "CS
+SysAdmin Page" and then selecting "Other Changes to your CS LDAP
+Account" -> "Account Setup Services" -> "Request Other Changes to This
+Account".
+
+[The `ps` command used above provides information about processes
+running on the system.  Processes are identified by a "process ID" or
+*pid*; the `-p` option to the `ps` command is used to specify that the
+only process to be listed is that for the pid specified by the `$$`
+shell variable.  The `$$` shell variable gives the pid of the current
+process, which is the shell into which you typed in the `ps` command.
+Hence `ps` provides information about the current shell process including
+the command used to start it up.]
+
+	     	      Setting Up a Terminal For Your Lab
+		      ----------------------------------
+
+
+  # Fire up a terminal running within a terminal window.  You should
+    find at least one terminal program, typically within the
+    "Applications" menu of your Linux system.
+
+
+  # Create a directory for this lab within a `tmp` directory:
+
+    ```
+    $ mkdir -p ~/tmp/lab0
+    $ cd ~/tmp/lab0
+    ```
+
+    [Once your account has been set up, you will create your lab
+    directory differently for subsequent labs.]
+
+  # Create a script file which will contain a log of your lab:
+
+    ```
+    $ script -a lab0.LOG
+    Script started, file is lab0.LOG
+    ```
+
+    You will be submitting this log to the TA in order to establish
+    that you have completed the lab.
+
+    All subsequent interactions with the terminal will be logged
+    to this file.  
+
+If you start up additional terminal windows or tabs, your interaction
+with these auxiliary terminals will not be logged.  Such auxiliary
+terminals are useful for listing command manuals or playing around
+with commands without the output being logged.
+
+			Create a ssh Key
+			================
+
+The secure-shell program `ssh` is used by programmers to obtain secure
+access to remote computers.  You can use it via passwords but it is
+much more convenient to use it without a password by creating a
+public/private key-pair.
+
+Check if you already have a ssh key-pair by running the command `ls
+~/.ssh`; if both `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`
+exist you already have a key-pair.
+
+If you do not already have a key-pair, you can generate one by
+typing the command `ssh-keygen` and accepting all defaults. It is not
+necessary to protect the private key using a password.
+
+You should now have two files: `~/.ssh/id_rsa` and
+`~/.ssh/id_rsa.pub`.  The latter is the public key and should be
+copied over to remote hosts to which you may need to connect.  The former
+is the private key and it should be kept protected.
+
+To start with, allow password-less access to your account from itself:
+
+`$ ssh-copy-id -i `"user"`@remote`
+
+where "user" is your login id on `remote.cs`.
+
+      	     	Setting up Session Initialization Files
+		=======================================
+
+Use your favorite text editor to make the following changes in your
+`bash` startup files in your home directory on your host machine.
+
+  # Add the following line to your login startup file `~/.profile`.
+
+        ```
+	. ~umrigar/cs240/bin/student.profile
+        ```
+
+  # Add the following line to the startup file `~/.bashrc` run by your
+    shell when started as a non-login shell:
+
+        ```
+	. ~umrigar/cs240/bin/student.rc
+        ```
+
+Note the *leading period followed by a space* in both cases.
+
+		Tracking Course Repository Changes
+		==================================
+
+
+All course material is maintained within a .<https://git-scm.com/doc>
+git repository.  This section of the lab describes how you can set up
+your CS account to mirror this repository and track changes.
+
+A subsequent lab will provide more experience with git, but you can
+obtain basic familiarity with `git` by looking at the copious
+documentation and tutorials available on the web.
+
+			Mirroring the Course Repository
+			-------------------------------
+
+The course git repository can be accessed using ssh at the URL:
+
+  `ssh://`"user"`@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git`
+
+where "user" is your login-id on `remote`.  You should clone this
+repository within a `projects` directory:
+
+```
+$ mkdir -p ~/projects
+$ cd ~/projects
+$ git clone ABOVE_URL
+$ cd ~
+$ ln -s projects/cs240 .
+```
+
+The last two commands set up a symlink to this directory in your home
+directory.  Note the trailing period on the last command.
+
+[Future assignments will assume that the course repository is available
+at `~/cs240`.  Hence it is important that this is set up correctly.]
+
+You should treat the `cs240` directory as a *read-only directory*; i.e. you
+should not create or change any files within this directory or any of its
+sub-directories.
+
+To get the latest updates from the course repository, you can manually
+update this directory:
+
+.code(lang=sh)
+```
+$ cd ~/git-repos/cs240
+$ git pull
+```
+
+You should also set up a cron job to automatically update this
+directory on an hourly schedule:
+
+.code(lang=sh)
+```
+$ EDITOR=YOUR_FAVORITE_EDITOR crontab -e
+```
+
+where `YOUR_FAVORITE_EDITOR` is the command you use to start your
+preferred editor.  It should open up showing you an initial `crontab`
+file.  Add the following line at the end:
+
+```
+BB * * * * cd ~/git-repos/cs240; git pull > /dev/null
+```
+
+where `BB` is the remainder of dividing your B-number by 60.
+Ensure that you have a newline at the end of this line.  Save the file
+and exit your editor.
+
+Verify that you have added this line correctly by listing out the
+tail of your `crontab` file:
+
+.code(lang=sh)
+```
+$ crontab -l | tail
+```
+
+The cron job should update your repository every hour at `BB` minutes
+past the hour (specifying the minutes using part of your B-number
+avoids a potential system overload by ensuring that different students
+likely update at different times).
+
+
+			Tracking Changes
+			----------------
+
+To see what changes have been made, the `git log` command may be useful:
+
+  + Use the `git log -`"N" command in the `cs240` directory to see the
+    last "N" log messages.  For example, while in the `cs240`
+    directory, type the command
+
+    ```
+    $ git log -5
+    ```
+
+    to see the last 5 log messages.
+
+  + To see the last "N" log messages for a specific file "FILE", use
+    `git log -`"N" "FILE"; the log messages will include a 40
+    character hex hash specifying the revision.
+
+    For example, to see the last 3 log messages for the source file
+    for this lab:
+
+    ```
+    $ git log -3 labs/lab0.umt
+    ```
+
+  + To see what has changed between two specific revisions, use `git
+    diff -w -r `"HHHHH" `-r` "XXXXX" "FILE" where "HHHHH" and "XXXXX"
+    are the first characters of the revisions you want to diff and
+    "FILE" should specify the source file (often `*.umt`).
+
+    For example, to diff the current version of `lab0.umt` with
+    some of the previous versions:
+
+    ```
+    $ git diff -r XXXXX labs/lab0.umt
+    ```
+
+    where `XXXXX` are the first few characters from the hash printed
+    in the last command.
+
+                  Setting Up a Github Account
+		  ===========================
+		  
+We will also be using git for lab and project submissions:
+
+  + You will be submitting your course projects to a private
+    git repository on .<https://github.com> github.com which
+    you share with your TA's.
+
+  + Project and lab submissions will be done from a clone of your
+    github repository on the workstation you are using (often one in
+    one of the CS departmental labs, but you could also be accessing
+    `remote.cs.binghamton.edu` from a remote workstation).
+
+The rest of this lab provides step-by-step directions for setting up a github
+account.
+
+                      Quick Start
+                      -----------
+
+If you know what you are doing, this `tl;dr` section should largely suffice:
+
+  # Set up a personal github account and create a `i240a` or `i240b`
+    git repository, depending on the course section you are registered
+    for.  Choose the github options to generate a `.gitignore` for the C++
+    programming language and initialize your repository with a `README`.
+
+  # Set up TAs to have access to your repository:
+
+      : *Lab Sections A51 Thu 10::05-11::30a and A52 Thu 11::40 - 1::05p* :
+        Github ID: `ctremblay04`.
+
+      : *Lab Section A53 Thu 1::15-2::40p* :
+        Github IDs: `ctremblay04` and `RaushanCSBinghamton`
+
+      : *Lab section B54 Thu 2::50 - 4::15p* :
+        Github ID: `RaushanCSBinghamton`
+
+      : *Lab sections B55:: Thu 6::00-7::25p and B56 Thu 4::25 - 5::50p* :
+        Github IDs: `ctremblay04` and `RaushanCSBinghamton`
+
+    As there are many similar names and some people may have multiple
+    accounts, *make 100% sure that you have the correct github
+    accounts* (the above "ID"'s must match).
+
+  # Clone your github repository into the `~/projects` directory on your
+    workstation. Create a symlink to your cloned repository in your
+    home directory.
+
+  # Use a `submit` subdirectory within the cloned directory for
+    working on labs/projects.  If submitting late, email the TA for
+    that assignment.
+
+The following sub-sections explain each of the above steps in detail.
+
+
+                Setting Up A Git Hub Repository
+                -------------------------------
+                
+.=github= Each student needs to set up a *private* git repository
+called `i240a` or `i240b` (depending on the section you are registered
+for) on github.  It will be referred to as "i240X" in the sequel.
+This repository provides access to both CS 240 TAs and will be used
+for submitting projects and labs for grading.
+
+  # Go to .<https://github.com> github.com.
+
+  # Click on `Sign Up`, and complete the form.  You may choose any
+    appropriate *Username*, but it is strongly recommended that you
+    use the user-name associated with your `binghamton.edu` email (if
+    it is available).
+
+    Please ensure that you provide your `binghamton.edu` email address
+    in the *Email address* field.  This may make it slightly easier
+    for the TA to associate your github account with your BU id.
+
+  # Please complete all necessary steps to complete your registration
+    on github after satisfying their captcha and submitting the form.
+
+  # Set up your account appropriately.  On the github page, access
+    your account using the user icon on the top right of the page and
+    selecting "Settings".  Select *SSH and GPG keys" from the left
+    hand menu, specify a *New SSH key".
+
+    On your terminal `cat ~/.ssh/id_rsa.pub` and then copy-and-paste
+    the output of that command into the provided *Key* box.  Submit
+    the form to set up your new key.
+
+  # To set up a repository for the course, click on the green *New*
+    button on your .<https://github.com> "github home page".
+
+      # Fill in the repository name as `i240a` or `i240b` exactly
+        (this is absolutely essential).
+
+      # Provide a suitable description for the repository.
+
+      # Make sure that you set up your repository as *Private*.
+
+      # Select `Initialize this repository with a README`.
+
+      # Specify a `.gitignore` file for `C++`.
+
+    Hit the *Create repository* button.
+
+  # Go to your repository using the link you will now find on your
+    github homepage. Go to `Settings->Collaborators` from the
+    left-hand side navigation.  Add TAs as collaborators
+    using their github user-ids:
+
+      : *Lab Sections A51 Thu 10::05-11::30a and A52 Thu 11::40 - 1::05p* :
+        Github ID: `ctremblay04`.
+
+      : *Lab Section A53 Thu 1::15-2::40p* :
+        Github IDs: `ctremblay04` and `RaushanCSBinghamton`
+
+      : *Lab section B54 Thu 2::50 - 4::15p* :
+        Github ID: `RaushanCSBinghamton`
+
+      : *Lab sections B55:: Thu 6::00-7::25p and B56 Thu 4::25 - 5::50p* :
+        Github IDs: `ctremblay04` and `RaushanCSBinghamton`
+
+
+    As there are many similar names and some people may have multiple
+    accounts, *make 100% sure that you have the correct github
+    accounts* (the above "ID"'s must match).
+
+    They will get access to your repository once they accept your
+    invitation to collaborate.
+
+    [Note that some lab sections require 2 TAs to get access
+    to your repository as one TA is responsible for grading
+    your lab while another TA is responsible for grading your
+    project.]
+
+
+                  Initializing Your Repository on your Workstation
+                  ------------------------------------------------
+
+Clone your github repository into your `~/projects` directory:
+
+  `$ mkdir -p ~/projects` .;
+  `$ cd ~/projects` .;
+  `$ git clone` "YOUR_GITHUB_PROJECT_URL" .;
+
+You can copy and paste `YOUR_GITHUB_PROJECT_URL` from your github
+project page.  Click the green *Clone or download* button and then
+copy the *Clone with SSH* url into your clipboard by using the copy
+widget on the right of the url.
+
+If you get an error when doing so, verify that you have correctly uploaded
+your public ssh key to github.
+
+
+Create a symlink to your github project in your home directory:
+
+    ```
+    $ cd ~
+    $ ln -s ~/projects/i240? .
+    ```
+
+If you `cd` over to your `i240X` directory and do a `ls -a` you should
+see both the `README.md` and `.gitignore` files.  Feel free to add
+names/patterns into `.gitignore` file for files which should be
+ignored by git.  For example, if you are using emacs as your text
+editor, you may want to add in a line containing `*~` to tell git to
+ignore emacs backup files.
+
+Make sure that all updates have been pushed over to github:
+
+.code(lang=sh)
+```
+$ cd ~/i240X
+$ git status -s #see if there are changes you want to commit
+$ git commit -a -m 'SOME COMMIT MSG' #commit if necessary
+$ git push #push changes to github
+```
+
+                Winding Up and Submitting Your Lab
+                ==================================
+
+If you have completed all the previous steps, run the following commands
+in the terminal which is being logged:
+
+.code(lang=sh)
+```
+$ ls -dl ~/cs240 ~/i240X
+$ ls -l ~/.ssh ~/cs240 ~/i240X 
+```
+
+The output will let the TA assess whether you have completed the previous
+steps.
+
+A common git workflow is to work on new program features in separate
+git branches and merge each feature branch in to the main `master`
+branch when the feature is complete.  This course will expose you to
+this workflow by regarding each lab and project as a separate feature
+and using a separate branch for developing each lab or project.
+
+We could not follow this procedure for this lab, as part of the lab
+was setting up the github repository. However, better late than never:
+we will start a git branch for this lab:
+
+.code(lang=sh)
+```
+$ cd ~/i240X
+$ git checkout -b lab0 #create a new branch
+$ mkdir -p submit #create a dir for submitting work to be graded
+```
+
+At this point, you have pretty much completed the lab, Terminate the
+logging in the terminal being logged, by typing a `control-D`
+character (that is hold down the control key and `d` key
+simultaneously) to indicate the end of your session.  (Note that this
+is not a universal end-of-file character, it is merely interpreted as
+end-of-file by the terminal controller).
+
+This should create your log in `~/tmp/lab0/lab0.LOG`.  You can confirm
+this by doing a `ls -l ~/tmp/lab0/lab0.LOG` or by looking at the log
+file using a text editor.
+
+Move the `lab0` directory over to your `i240X` directory.
+
+.code(lang=sh)
+```
+$ cd ~/i240X
+$ mv ~/tmp/lab0 submit
+```
+
+Get ready to merge your `lab0` branch by first merging any changes
+from `master` branch:
+
+.code(lang=sh)
+```
+$ cd ~/i240X
+$ git branch -l #list all branches; curent branch, indicated by a *,
+                #should be lab0.
+$ git merge -m 'merged master' master #may not do anything
+$ git add submit/lab0 #add in lab work
+$ git status -s #should show lab0.LOG
+$ git commit -a -m 'completing lab0`
+$ git push -u origin lab0 #push lab0 branch to github
+$ git checkout master #switch to master branch
+$ git merge lab0 -m 'merged lab0' #merge in lab0 branch
+$ git push #submit lab
+```
+
+
+If you find a problem with your submission, you may directly update
+your submission in the `submit` directory, followed by a `commit` and
+`push`.  The timestamp of the latest commit and push within the
+`submit` directory will count as the submission time for your project.
+
+You should feel free to create any other subdirectories within your
+"i240X" directory.  The only directory which will be monitored for
+submitted assignments is the `submit` directory in the `master`
+branch.
+
+If you are submitting late, please email the TA who is responsible for
+grading that assignment.
+
+
+      	  	  	    References
+			    ==========
+
+
+.<https://git-scm.com/> "Official Git Site".
+
+Scott Chacon, Ben Straub, .<https://git-scm.com/book/en/v2> "Pro Git".
+
+.<https://git-scm.com/docs> "Reference Documentation"
