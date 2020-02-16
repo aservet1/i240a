@@ -11,4 +11,4 @@ all:		$(TARGET)
 $(TARGET):	$(OFILES)
 		$(CXX) $(OFILES) -o $@
 clean:
-	rm -f *.o
+	rm -f *.o $(TARGET)
