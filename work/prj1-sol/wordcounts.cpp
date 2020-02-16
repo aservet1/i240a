@@ -22,7 +22,7 @@ fix_word(std::string inWord)
 	return outWord;
 }
 
-std::ifstream
+static std::ifstream
 open_file_check_error(std::string fileName)
 {
 	std::ifstream inFile;
@@ -35,29 +35,35 @@ open_file_check_error(std::string fileName)
 	return inFile;
 }
 
-bool is_in(std::string key, std::vector<std::string> vect)
+/*bool is_in(std::string key, std::vector<std::string> vect)
 {
 	for (unsigned long i = 0; i < vect.size(); i++)
 		if(vect[i] == key) return true;
 	return false;
+}*/
+
+static bool is_int_string(std::string s)
+{
+	for (char c : s) if (!isdigit(c)) return false;
+	return true;
 }
 
-bool wordCompare()
+static bool wordCompare()
 {
 	return false;
 }
 
-std::unordered_map<std::string,int>
-count_file_words(int max_n_out,
+static std::unordered_map<std::string,int>
+count_file_words(/*int max_n_out,*/
 		 int min_word_length,
 		 int max_word_length,
 		 std::string fileName)
 {
 	std::unordered_map<std::string, int> wordcounts;
-	std::string word;
 
 	std::ifstream inFile = open_file_check_error(fileName);
 
+	std::string word;
 	int word_length;
 	std::vector<std::string> words_written;
 	while (inFile >> word) {
@@ -66,14 +72,14 @@ count_file_words(int max_n_out,
 		if (word_length >= min_word_length
 		 && word_length <= max_word_length)
 		{
-			if (is_in(word,words_written))
+	//		if (is_in(word,words_written))
 				wordcounts[word] += 1;
-			else {
-				if ((int)words_written.size() < max_n_out) {
-					words_written.push_back(word);
-					wordcounts[word] += 1;
-				}
-			}
+	//		else {
+	//			if ((int)words_written.size() < max_n_out) {
+	//				words_written.push_back(word);
+	//				wordcounts[word] += 1;
+	//			}
+	//		}
 		}
 	}
 	inFile.close();
@@ -82,8 +88,24 @@ count_file_words(int max_n_out,
 
 int main(int argc, char *argv[])
 {
-	std::unordered_map wordcounts =
-		count_file_words(10, 5, 6, "lab0.umt");
+	if (argc < 5) {
+		std::cerr << "usage: ./worcounts MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE..." << std::endl;
+		exit(1);
+	}
 
+	for(int i = 1; i < 4; i++) {
+		if (!is_int_string(argv[i])) {
+			std::cerr << "Bad integer value \"" << argv[i] << "\"" << std::endl;
+			exit(1);
+		} //@TODO -- 'for MAX_WORD_LEN' with an enum or something
+	}
+
+	int max_n_out = std::stoi(argv[1]);
+	int min_word_len = std::stoi(argv[2]);
+	int max_word_len = std::stoi(argv[3]);
+
+	std::unordered_map wordcounts =
+		count_file_words(/*max_n_out,*/ min_word_len, max_word_len, argv[4]);
+		//@TODO -- make this handle multi file input
 	print_map(wordcounts);
 }
