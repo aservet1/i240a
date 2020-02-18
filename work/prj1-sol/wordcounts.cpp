@@ -85,8 +85,10 @@ main(int argc, char *argv[])
 		exit(1);
 	}
 
+	bool kill_program = false;
 	for(int i = 1; i < 4; i++) {
 		if (!is_int_string(argv[i])) {
+			kill_program = true;
 			std::string arg_name;
 			switch (i) {
 				case 1: arg_name = "MAX_N_OUT";    break;
@@ -94,9 +96,8 @@ main(int argc, char *argv[])
 				case 3: arg_name = "MAX_WORD_LEN"; break;
 			}
 			std::cerr << "Bad integer value \"" << argv[i] << "\" for " << arg_name << std::endl;
-			exit(1);
-		} //@TODO -- 'for MAX_WORD_LEN' with an enum or something; also, if min > max
-	}
+		}
+	} if (kill_program) exit(1);
 
 	int max_n_out = std::stoi(argv[1]);
 	int min_word_len = std::stoi(argv[2]);
