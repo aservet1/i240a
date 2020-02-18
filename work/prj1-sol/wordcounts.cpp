@@ -61,8 +61,8 @@ count_file_words(int min_word_length, int max_word_length, std::string fileName)
 				wordcounts[word] += 1;
 	}
 	if (!inFile.eof()) {
-		std::cerr << "error: reading file " <<
-		fileName << " didn't reach eof before closing" << std::endl;
+		std::cerr << "error: reading file \"" <<
+		fileName << "\" didn't reach eof before closing" << std::endl;
 		exit(1);
 	}
 	inFile.close();
@@ -114,4 +114,4 @@ main(int argc, char *argv[])
 	{
 		std::cout << sortedwords[i].first << ": " << sortedwords[i].second << std::endl;
 	}
-} //@TODO -- make some typedefs to make this not a mess
+}
