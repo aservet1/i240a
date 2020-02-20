@@ -46,26 +46,28 @@ wordCompare(WordCount wc1, WordCount wc2)
 }
 
 static WordMap
-count_file_words(int min_word_length, int max_word_length, std::string fileName)
+count_file_words(int min_word_length, int max_word_length, std::vector<std::string> fileNames)
 {
 	WordMap wordcounts;
+	for (std::string fileName : fileNames)
+	{
+		std::ifstream inFile = open_file_check_error(fileName);
 
-	std::ifstream inFile = open_file_check_error(fileName);
-
-	std::string word;
-	int word_length;
-	while (inFile >> word) {
-		word = fix_word(word);
-		word_length = word.length();
-		if (word_length >= min_word_length && word_length <= max_word_length)
-				wordcounts[word] += 1;
+		std::string word;
+		int word_length;
+		while (inFile >> word) {
+			word = fix_word(word);
+			word_length = word.length();
+			if (word_length >= min_word_length && word_length <= max_word_length)
+					wordcounts[word] += 1;
+		}
+		if (!inFile.eof()) {
+			std::cerr << "error: reading file \"" <<
+			fileName << "\" didn't reach eof before closing" << std::endl;
+			exit(1);
+		}
+		inFile.close();
 	}
-	if (!inFile.eof()) {
-		std::cerr << "error: reading file \"" <<
-		fileName << "\" didn't reach eof before closing" << std::endl;
-		exit(1);
-	}
-	inFile.close();
 	return wordcounts;
 }
 
@@ -77,6 +79,12 @@ sort_map(WordMap map)
 	return mapvector;
 }
 
+void words_out(int max_n_out, std::vector<WordCount> sortedWords)
+{
+	for (long unsigned int i = 0; i < (long unsigned int)max_n_out && i < sortedWords.size(); i++)
+		std::cout << sortedWords[i].first << ": " << sortedWords[i].second << std::endl;
+}
+
 int
 main(int argc, char *argv[])
 {
@@ -85,10 +93,10 @@ main(int argc, char *argv[])
 		exit(1);
 	}
 
-	bool kill_program = false;
+	bool found_bad_int_val = false;
 	for(int i = 1; i < 4; i++) {
 		if (!is_int_string(argv[i])) {
-			kill_program = true;
+			found_bad_int_val = true;
 			std::string arg_name;
 			switch (i) {
 				case 1: arg_name = "MAX_N_OUT";    break;
@@ -97,7 +105,7 @@ main(int argc, char *argv[])
 			}
 			std::cerr << "Bad integer value \"" << argv[i] << "\" for " << arg_name << std::endl;
 		}
-	} if (kill_program) exit(1);
+	} if (found_bad_int_val) exit(1);
 
 	int max_n_out = std::stoi(argv[1]);
 	int min_word_len = std::stoi(argv[2]);
@@ -107,11 +115,9 @@ main(int argc, char *argv[])
 		std::cerr << "MIN_WORD_LEN " << min_word_len << " is greater than MAX_WORD_LEN " << max_word_len << std::endl;
 	}
 
-	std::unordered_map wordcounts = count_file_words(min_word_len, max_word_len, argv[4]);
+	std::vector<std::string> fileNames = std::vector<std::string>(&argv[4],&argv[argc]);
+	std::unordered_map wordcounts = count_file_words(min_word_len, max_word_len, fileNames);
 		//@TODO -- make this handle multi file input
-	std::vector<WordCount> sortedwords = sort_map(wordcounts);
-	for (long unsigned int i = 0; i < (long unsigned int)max_n_out && i < wordcounts.size(); i++)
-	{
-		std::cout << sortedwords[i].first << ": " << sortedwords[i].second << std::endl;
-	}
+	std::vector<WordCount> sortedWords = sort_map(wordcounts);
+	words_out(max_n_out,sortedWords);
 }
