@@ -117,7 +117,6 @@ main(int argc, char *argv[])
 
 	std::vector<std::string> fileNames = std::vector<std::string>(&argv[4],&argv[argc]);
 	std::unordered_map wordcounts = count_file_words(min_word_len, max_word_len, fileNames);
-		//@TODO -- make this handle multi file input
 	std::vector<WordCount> sortedWords = sort_map(wordcounts);
 	words_out(max_n_out,sortedWords);
 }
