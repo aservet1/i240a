@@ -119,4 +119,6 @@ main(int argc, char *argv[])
 	std::unordered_map wordcounts = count_file_words(min_word_len, max_word_len, fileNames);
 	std::vector<WordCount> sortedWords = sort_map(wordcounts);
 	words_out(max_n_out,sortedWords);
+
+	return 0;
 }
