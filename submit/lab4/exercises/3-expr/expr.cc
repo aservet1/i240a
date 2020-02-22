@@ -11,6 +11,12 @@ IntExpr::toString() const
   return s.str();
 }
 
+int
+IntExpr::eval() const
+{
+  return value;
+}
+
 static std::string
 binaryExprToString(std::string op, ExprPtr left, ExprPtr right)
 {
@@ -19,10 +25,22 @@ binaryExprToString(std::string op, ExprPtr left, ExprPtr right)
   return s.str();
 }
 
+int
+AddExpr::eval() const
+{
+  return (*left).eval() + (*right).eval();
+}
+
 std::string
 AddExpr::toString() const
 {
   return binaryExprToString("+", left, right);
+}
+
+int
+SubExpr::eval() const
+{
+  return (*left).eval() - (*right).eval();
 }
 
 std::string
@@ -31,10 +49,22 @@ SubExpr::toString() const
   return binaryExprToString("-", left, right);
 }
 
+int
+MulExpr::eval() const
+{
+  return (*left).eval() * (*right).eval();
+}
+
 std::string
 MulExpr::toString() const
 {
   return binaryExprToString("*", left, right);
+}
+
+int
+DivExpr::eval() const
+{
+  return (*left).eval() / (*right).eval();
 }
 
 std::string
@@ -42,4 +72,3 @@ DivExpr::toString() const
 {
   return binaryExprToString("/", left, right);
 }
-

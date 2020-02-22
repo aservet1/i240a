@@ -8,6 +8,8 @@
 
 
 class Expr : public ToString {
+public:
+  virtual int eval() const = 0;
 };
 
 //ExprPtr is an alias for a smart shared ptr to an Expr.
@@ -26,7 +28,8 @@ public:
     return std::make_shared<IntExpr>(val, Private::TAG);
   }
 
-  
+  int eval() const;
+
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
@@ -51,6 +54,8 @@ public:
     return std::make_shared<AddExpr>(left, right, Private::TAG);
   }
 
+  int eval() const;
+
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
@@ -72,6 +77,8 @@ public:
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<SubExpr>(left, right, Private::TAG);
   }
+
+  int eval() const;
 
   std::string toString() const;
 
@@ -95,6 +102,8 @@ public:
     return std::make_shared<MulExpr>(left, right, Private::TAG);
   }
 
+  int eval() const;
+
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
@@ -115,6 +124,8 @@ public:
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<DivExpr>(left, right, Private::TAG);
   }
+
+  int eval() const;
 
   std::string toString() const;
 
