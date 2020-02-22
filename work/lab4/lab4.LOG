@@ -1,0 +1,31 @@
+Script started on 2020-02-22 12:25:57-0500
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ ls
+[0m[01;34mexercises[0m  lab4.LOG
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ cd exercises/
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4/exercises[00m$ ls
+[0m[01;34m1-point[0m  [01;34m2-shape[0m  [01;34m3-expr[0m  Makefile
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4/exercises[00m$ ls
+[0m[01;34m1-point[0m  [01;34m2-shape[0m  [01;34m3-expr[0m  Makefile
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4/exercises[00m$ cd ..
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ ls
+[0m[01;34mexercises[0m  lab4.LOG
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ touch hello
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ ls
+[0m[01;34mexercises[0m  hello  lab4.LOG  lab4.pdf
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ echo lab4.pdf .gitignre[K[Kore
+lab4.pdf .gitignore
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ echo lab4.pdf .gitignore>.gitignore .gitignore
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ ls
+[0m[01;34mexercises[0m  hello  lab4.LOG  lab4.pdf
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ git p[Kstatus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31mhello[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab4[00m$ git add [K[K[K[Kcommit -a -m ''t'e's't' 'p'u's'h'[1P'[1P'[1P'[1P'[1P'i'n'g' 'g'i't'i'g'n'o
