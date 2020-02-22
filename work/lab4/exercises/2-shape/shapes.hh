@@ -16,6 +16,7 @@
 class Shape : public ToString {
 public:
   virtual double perimeter() const = 0;
+  virtual double area() const = 0;
 };
 
 /* A Circle is a concrete Shape */
@@ -31,13 +32,16 @@ struct Circle : public Shape {
   /** return perimeter of this circle */
   double perimeter() const { return 2 * M_PI * radius; }
 
+  /** return area of circle */
+  double area() const { return M_PI * radius * radius; }
+
   /** return string representation of this circle */
   std::string toString() const {
     std::stringstream s;
     s << "Circle[" << origin << ", " << radius << "]";
     return s.str();
   }
-  
+
 };
 
 /* A Rectangle is another concrete Shape */
@@ -56,6 +60,15 @@ struct Rectangle : public Shape {
     return 2 * (width + height);
   }
 
+  /** return area of rectangle */
+  double area() const {
+    double width = bottomRight.x - topLeft.x;
+    if (width < 0) width = -width;
+    double height = bottomRight.y - topLeft.y;
+    if (height < 0) height = -height;
+    return width * height;
+  }
+
   /** return string representation of this rectangle */
   std::string toString() const {
     std::stringstream s;
@@ -63,6 +76,6 @@ struct Rectangle : public Shape {
       << bottomRight.toString() << "]";
     return s.str();
   }
-  
+
 };
 #endif //ifndef SHAPES_HH_

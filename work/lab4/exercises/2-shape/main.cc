@@ -24,7 +24,7 @@ outSizes(std::ostream& out)
 {
   out << "sizeof(double) = " << sizeof(double) << std::endl;
   out << "sizeof(Point) = " << sizeof(Point) << std::endl << std::endl;
-  
+
   out << "sizeof(ToString) = " << sizeof(ToString) << std::endl;
   out << "sizeof(Shape) = " << sizeof(Shape) << std::endl;
   out << "sizeof(Circle) = " << sizeof(Circle) << std::endl;
@@ -43,8 +43,11 @@ outShapes(std::ostream& out)
     //if shapeP points to a Rectangle, then call Rectangle::perimeter();
     //choosing the code at runtime is referred to as *runtime polymorphism*.
     auto perim = shapeP->perimeter();
-    
-    out << *shapeP << " perimeter: " << perim << std::endl;
+    auto area = shapeP->area();
+
+    out << *shapeP << std::endl
+        << "\tperimeter:\t" << perim << std::endl
+        << "\tarea:\t\t" << area << std::endl;
   }
 }
 
