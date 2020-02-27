@@ -31,7 +31,7 @@ std::string
 AddExpr::dcCode() const
 {
 	std::stringstream s;
-	s << (*left).dcCode() << " " (*right).dcCode() << " +";
+	s << (*left).dcCode() << " " << (*right).dcCode() << " +";
 	return s.str();
 }
 
@@ -39,7 +39,7 @@ std::string
 SubExpr::dcCode() const
 {
 	std::stringstream s;
-	s << (*left).dcCode() << " " (*right).dcCode() << " -";
+	s << (*left).dcCode() << " " << (*right).dcCode() << " -";
 	return s.str();
 }
 
@@ -47,7 +47,7 @@ std::string
 MulExpr::dcCode() const
 {
 	std::stringstream s;
-	s << (*left).dcCode() << " " (*right).dcCode() << " *";
+	s << (*left).dcCode() << " " << (*right).dcCode() << " *";
 	return s.str();
 }
 
@@ -55,7 +55,7 @@ std::string
 DivExpr::dcCode() const
 {
 	std::stringstream s;
-	s << (*left).dcCode() << " " (*right).dcCode() << " /";
+	s << (*left).dcCode() << " " << (*right).dcCode() << " /";
 	return s.str();
 }
 
@@ -83,4 +83,3 @@ DivExpr::toString() const
 {
   return binaryExprToString("/", left, right);
 }
-

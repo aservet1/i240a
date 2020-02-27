@@ -663,3 +663,90 @@ expr.cc  expr.hh  expr.o  [0m[01;32mmain[0m  main.cc  main.o  parse.cc  parse
 ]0;aservet1@remote06: ~/i240a/work/lab5/exercises/2-expr[01;32maservet1@remote06[00m:[01;34m~/i240a/work/lab5/exercises/2-expr[01;31m (master)[00m$ exit
 
 Script done on 2020-02-27 16:46:29-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-02-27 16:47:22-0500
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[00m$ ls
+[0m[01;34mexercises[0m  ExplainTheProblem.txt  lab5.LOG
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[00m$ cd exercises/
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[00m$ s[Kcd ,,[K[K..
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[00m$ ls
+[0m[01;34mexercises[0m  ExplainTheProblem.txt  lab5.LOG
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[00m$ rm ExplainTheProblem.txt 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[00m$ ls
+[0m[01;34mexercises[0m  lab5.LOG
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5[00m$ cd exercises/
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[00m$ clear
+[3J[H[2J]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[00m$ ls
+[0m[01;34m1-animal[0m  [01;34m2-expr[0m  Makefile
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises[00m$ cd 2-expr/
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ atom *
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ make -f ../Makefile 
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+[01m[Kexpr.cc:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string AddExpr::dcCode() const[m[K’:
+[01m[Kexpr.cc:34:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  s << (*left).dcCode() << " " (*right[01;31m[K)[m[K.dcCode() << " +";
+                                      [01;31m[K^[m[K
+[01m[Kexpr.cc:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string SubExpr::dcCode() const[m[K’:
+[01m[Kexpr.cc:42:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  s << (*left).dcCode() << " " (*right[01;31m[K)[m[K.dcCode() << " -";
+                                      [01;31m[K^[m[K
+[01m[Kexpr.cc:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string MulExpr::dcCode() const[m[K’:
+[01m[Kexpr.cc:50:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  s << (*left).dcCode() << " " (*right[01;31m[K)[m[K.dcCode() << " *";
+                                      [01;31m[K^[m[K
+[01m[Kexpr.cc:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string DivExpr::dcCode() const[m[K’:
+[01m[Kexpr.cc:58:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  s << (*left).dcCode() << " " (*right[01;31m[K)[m[K.dcCode() << " /";
+                                      [01;31m[K^[m[K
+../Makefile:48: recipe for target 'expr.o' failed
+make: *** [expr.o] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ make -f ../Makefile 
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ./main 
+usage: ./main PREFIX_EXPR...
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ./main [K[K[K[K[K[Kc[K[Kclearr
+[3J[H[2J[3J[H[2J]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ,.m[K[K[K./main ""+" "_" "[1P"[1P"+" "_"[1P"+" "/" "2"2" "6" "*" "5" "3" "-" "2" "5" "*" "3" "5"
+((((22) / (6)) + ((5) * (3))) + ((2) - (5))) + ((3) * (5)) = 30
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5"clearr[K./main [13@make -f ../Makefile[C
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ExprPtr = class std::shared_ptr<Expr> {aka class std::shared_ptr<Expr>}[m[K’ has no member named ‘[01m[KdcCode[m[K’
+     std::cout << *exprP.[01;31m[KdcCode[m[K() << std::endl;
+                         [01;31m[K^~~~~~[m[K
+../Makefile:48: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ make -f ../Makefile 
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ make -f ../Makefile ./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5"clearr[K./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5"
+22 6 / 5 3 * + 2 5 - + 3 5 * +
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ls
+expr.cc  expr.hh  expr.o  [0m[01;32mmain[0m  main.cc  main.o  parse.cc  parse.hh  parse.o  tostring.cc  tostring.hh  tostring.o
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ls./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5" | dc
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5" | dcls[K./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5"[19Pmake -f ../Makefile 
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ make -f ../Makefile ./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5" | dc[K[K[K[K[K
+22 6 / 5 3 * + 2 5 - + 3 5 * + p c 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ./main "+ + + / 22 6 * 5 3 - 2 5 * 3 5" | dc
+30
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ ./main ''-' '3' '2' '[1P'[C[K"[C[1P[1@"[C[C[C[C[C[C ""*" "+" "1" "2" "5"[C | dc
+1
+15
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab5/exercises/2-expr[00m$ exit
+
+Script done on 2020-02-27 16:55:11-0500
