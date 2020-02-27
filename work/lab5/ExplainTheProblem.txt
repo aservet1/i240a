@@ -1,0 +1,3 @@
+The problem is that the main function tries to instantiate the an Animal
+object but that's no bueno. Animals are virtual objects. You have to
+instantiate a subclass of Animal, not the class animal itself. Silly goose.
