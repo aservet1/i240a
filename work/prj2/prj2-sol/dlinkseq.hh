@@ -44,9 +44,9 @@ private:
   }
   void removeall() {
     while (head != nullptr) {
-      DLink<E>* curr = head;
+      DLink<E>* temp = head;
       head = head->next;
-      delete curr;
+      delete temp;
     }
   }
 
@@ -75,10 +75,14 @@ public:
   /** add item to the start of this seq. */
   void unshift(const E& it)
   {
-    DLink<E>* temp = new DLink<E>(it,nullptr,head);
-    head->prev = temp;
-    temp->next = head;
-    head = temp;
+    DLink<E>* temp = new DLink<E>(it,nullptr,nullptr);
+    temp->prev = head;
+    temp->next = head->next;
+    head->next->prev = temp;
+    head->next = temp;
+    //head->prev = temp;
+    //temp->next = head;
+    //head = temp;
     count++;
   }
 
@@ -87,9 +91,11 @@ public:
    */
   E shift()
   {
-    E it = head->element;
-    DLink<E>* temp = head;
-    head = head->next;
+    assert(count > 0 && "shift on empty dlink seq");
+    DLink<E>* temp = head->next;
+    E it = temp->element;
+    head->next = temp->next;
+    temp->next->prev = temp->prev;
     delete temp;
     count--;
     return it;
@@ -108,9 +114,10 @@ public:
   E pop()
   {
     assert(count > 0 && "pop on empty dlink seq");
-    E val = tail->element;
-    DLink<E>* temp = tail;
-    tail = tail->prev;
+    DLink<E>* temp = tail->prev;
+    E val = temp->element;
+    tail->prev = temp->prev;
+    temp->prev->next = tail;
     delete temp;
     count--;
     return val;
@@ -155,7 +162,7 @@ public:
 
   /** return true iff this pointer is not "NULL" */
   virtual operator bool() {
-    return link == seq->head || link == seq->tail;
+    return link != seq->head && link != seq->tail;
   }
 
   /** Return element this is pointing to */

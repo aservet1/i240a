@@ -2,5 +2,5 @@ Name:		Alejandro Servetto
 B-Number:	B00815907
 Email:		aservet1@binghamton.edu
 
-Add text here as needed.
-
+I put my command line validation functions into 'validate_args.hh'
+so they wouldn't clutter up my 'nums.cc' file

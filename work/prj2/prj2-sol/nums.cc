@@ -5,25 +5,25 @@
 
 #include "arrayseq.hh"
 #include "dlinkseq.hh"
-#include "validate.hh"
+#include "validate_args.hh"
 
 using namespace std;
 using TestType = int;
 
-void readFileIntoSequence(string inFileName, Seq<TestType>* sequence)
+void readFileIntoSequence(string inFileName, Seq<TestType>* seq)
 {
 	ifstream inFile; inFile.open(inFileName);
 	if (!inFile) { cerr << "Unable to open " << inFileName << endl; exit(1); }
-	int i;
+	TestType i;
 	while (inFile >> i) {
-		sequence->push(i);
+		seq->push(i);
 	}
 }
 
-void printSequence(Seq<TestType>* seqPtr)
+void printSequence(Seq<TestType>* seq)
 {
-  ConstIterPtr<TestType> startPointer = seqPtr->cbegin();
-	ConstIterPtr<TestType> endPointer = seqPtr->cend();
+  ConstIterPtr<TestType> startPointer = seq->cbegin();
+	ConstIterPtr<TestType> endPointer = seq->cend();
 	ConstIter<TestType>& a = *startPointer;
 	ConstIter<TestType>& b = *endPointer;
   while (a || b) {
@@ -39,18 +39,23 @@ int main(int argc, char *argv[])
 	auto args = vector<string>(&argv[1], &argv[argc]);
 	validate_cmd_args(args);
 	string inFileName;
-	if (args[0] == "-a") {
-		string option = args[0]; // make this a bool for arr/dlink later on
+	bool useArrSeq = false;
+	if (args.size() == 2) {
+		useArrSeq = true;
 		inFileName = args[1];
+	} else {
+		inFileName = args[0];
 	}
-	else inFileName = args[0];
+	bool useDLinkSeq = !useArrSeq;
 
-	SeqPtr<TestType> smartPointer = DLinkSeq<TestType>::make(); //this should prolly have a different name than smartPointer
-	Seq<TestType>* seqPtr = smartPointer.get();
+	SeqPtr<TestType> seqPointer;
+	if(useArrSeq) seqPointer = ArraySeq<TestType>::make();
+ 	if(useDLinkSeq) seqPointer = DLinkSeq<TestType>::make();
+	Seq<TestType>* rawPtr = seqPointer.get();
 
-	readFileIntoSequence(inFileName, seqPtr);
-	cout << *seqPtr << endl;
-	printSequence(seqPtr);
+	readFileIntoSequence(inFileName, rawPtr);
+	//cout << *seqPtr << endl;
+	printSequence(rawPtr);
 
 	return 0;
 }
