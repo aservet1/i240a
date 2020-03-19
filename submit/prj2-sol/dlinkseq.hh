@@ -80,9 +80,6 @@ public:
     temp->next = head->next;
     head->next->prev = temp;
     head->next = temp;
-    //head->prev = temp;
-    //temp->next = head;
-    //head = temp;
     count++;
   }
 
