@@ -1,14 +1,19 @@
 CXX = g++
 CXXFLAGS = -g -Wall -std=c++17
 
-FILES_TO_COMPILE = arrayseq.hh seq.hh nums.cc
+NUMS_FILES = nums.cc
+SEQ_TEST_FILES = command.cc seq-test.cc
 
 
-TARGET = seq-test
+NUMS_TARGET = nums
+SEQ_TEST_TARGET = seq-test
 
-all:		$(TARGET)
+all:		$(NUMS_TARGET) $(SEQ_TEST_TARGET)
 
-$(TARGET):	$(FILES_TO_COMPILE)
-		$(CXX) $(CXXFLAGS) $(FILES_TO_COMPILE) -o $@
+$(NUMS_TARGET):	$(NUMS_FILES)
+		$(CXX) $(CXXFLAGS) $(NUMS_FILES) -o $@
+
+$(SEQ_TEST_TARGET): $(SEQ_TEST_FILES)
+
 clean:
-	rm -f *.o $(TARGET)
+	rm -f *.o $(NUMS_TARGET) $(SEQ_TEST_TARGET)

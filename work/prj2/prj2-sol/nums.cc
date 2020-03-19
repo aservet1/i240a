@@ -3,64 +3,57 @@
 #include <vector>
 #include <cstring>
 
+#include "arrayseq.hh"
+#include "validate.hh"
+
 using namespace std;
 using TestType = int;
 
-static void invalid_usage_abort()
-{
-	cerr << "usage: ./seq-test [-a] ArraySeq|DLinkSeq" << endl;
-	exit(1);
-}
-
-static void validate_cmd_args(vector<string>& args)
-{
-	if (args.size() == 0) {
-		invalid_usage_abort();
-	}
-	else if (args.size() == 1) {
-//		if (args[0] != "ArraySeq" && args[0] != "DLinkSeq")
-//			invalid_usage_abort();
-	}
-	else if (args.size() == 2) {
-		if (args[0] != "-a")
-			invalid_usage_abort();
-//		if (args[1] != "ArraySeq" && args[1] != "DLinkSeq")
-//			invalid_usage_abort();
-	}
-	else if (args.size() > 2) {
-			invalid_usage_abort();
-	}
-}
-
-void readFileInts(string inFileName)
+void readFileIntoSequence(string inFileName, Seq<TestType>* sequence)
 {
 	ifstream inFile;
 	inFile.open(inFileName);
-	if (!inFile) {
-		cerr << "Unable to open " << inFileName << endl;
-		exit(1);
-	}
+	if (!inFile) { cerr << "Unable to open " << inFileName << endl; exit(1); }
 	int i;
 	while (inFile >> i) {
-		cout << i << " ";
-	} cout << endl;
+		sequence->push(i);
+		//cout << i << " ";
+	} //cout << endl;
 
 }
 
+void printSequence(Seq<TestType>* seq)
+{
+  ConstIterPtr<TestType> startPointer = seq->cbegin();
+	ConstIterPtr<TestType> endPointer = seq->cend();
+	ConstIter<TestType>& a = *startPointer;
+	ConstIter<TestType>& b = *endPointer;
+  //*iterP accessed iterator wrapped by smart-pointer iterP
+  while (a || b)
+	{
+    cout << *a << endl;
+		cout << *b << endl;
+		++a; --b;
+  }
+}
 
-// ./seq-test [-a] inputfile.txt
+// ./seq-test [-a] inputfile.data
 int main(int argc, char *argv[])
 {
 	auto args = vector<string>(&argv[1], &argv[argc]);
 	validate_cmd_args(args);
 	string inFileName;
 	if (args[0] == "-a") {
-		string option = args[0];
+		string option = args[0]; // make this a bool for arr/dlink later on
 		inFileName = args[1];
 	}
 	else inFileName = args[0];
 
-	readFileInts(inFileName);
+	SeqPtr<TestType> smartPointer = ArraySeq<TestType>::make(); //this should prolly have a different name than smartPointer
+	Seq<TestType>* ptr = smartPointer.get();
+
+	readFileIntoSequence(inFileName, ptr);
+	printSequence(ptr);
 
 	return 0;
 }
