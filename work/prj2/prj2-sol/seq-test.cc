@@ -1,6 +1,6 @@
 #include "arrayseq.hh"
 #include "command.hh"
-//#include "dlinkseq.hh"
+#include "dlinkseq.hh"
 #include "seq.hh"
 
 #include <cctype>

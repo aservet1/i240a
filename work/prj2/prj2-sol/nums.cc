@@ -4,6 +4,7 @@
 #include <cstring>
 
 #include "arrayseq.hh"
+#include "dlinkseq.hh"
 #include "validate.hh"
 
 using namespace std;
@@ -11,26 +12,21 @@ using TestType = int;
 
 void readFileIntoSequence(string inFileName, Seq<TestType>* sequence)
 {
-	ifstream inFile;
-	inFile.open(inFileName);
+	ifstream inFile; inFile.open(inFileName);
 	if (!inFile) { cerr << "Unable to open " << inFileName << endl; exit(1); }
 	int i;
 	while (inFile >> i) {
 		sequence->push(i);
-		//cout << i << " ";
-	} //cout << endl;
-
+	}
 }
 
-void printSequence(Seq<TestType>* seq)
+void printSequence(Seq<TestType>* seqPtr)
 {
-  ConstIterPtr<TestType> startPointer = seq->cbegin();
-	ConstIterPtr<TestType> endPointer = seq->cend();
+  ConstIterPtr<TestType> startPointer = seqPtr->cbegin();
+	ConstIterPtr<TestType> endPointer = seqPtr->cend();
 	ConstIter<TestType>& a = *startPointer;
 	ConstIter<TestType>& b = *endPointer;
-  //*iterP accessed iterator wrapped by smart-pointer iterP
-  while (a || b)
-	{
+  while (a || b) {
     cout << *a << endl;
 		cout << *b << endl;
 		++a; --b;
@@ -49,11 +45,12 @@ int main(int argc, char *argv[])
 	}
 	else inFileName = args[0];
 
-	SeqPtr<TestType> smartPointer = ArraySeq<TestType>::make(); //this should prolly have a different name than smartPointer
-	Seq<TestType>* ptr = smartPointer.get();
+	SeqPtr<TestType> smartPointer = DLinkSeq<TestType>::make(); //this should prolly have a different name than smartPointer
+	Seq<TestType>* seqPtr = smartPointer.get();
 
-	readFileIntoSequence(inFileName, ptr);
-	printSequence(ptr);
+	readFileIntoSequence(inFileName, seqPtr);
+	cout << *seqPtr << endl;
+	printSequence(seqPtr);
 
 	return 0;
 }
