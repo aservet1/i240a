@@ -1,131 +1,0 @@
-Script started on 2020-03-26 14:18:08-0400
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CSS240/i240a/work/lab8[00m$ [K[A]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8[00m$ ls
-[0m[01;34mexercises[0m  lab8.LOG
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8[00m$ cd exercises/
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ ls
-[0m[01;34m3-subshells[0m
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ cd [K[K[Kls
-[0m[01;34m3-subshells[0m
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ clear
-[3J[H[2J]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ ls
-[0m[01;34m3-subshells[0m
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ env
-LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-LESSCLOSE=/usr/bin/lesspipe %s %s
-LANG=en_US.UTF-8
-GDM_LANG=en_US
-DISPLAY=:0
-OLDPWD=/home/alejandro/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8
-GTK_OVERLAY_SCROLLING=1
-COLORTERM=truecolor
-JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-XDG_VTNR=7
-SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
-MANDATORY_PATH=/usr/share/gconf/cinnamon.mandatory.path
-XDG_SESSION_ID=c2
-XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/alejandro
-USER=alejandro
-DESKTOP_SESSION=cinnamon
-GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/d45e6221_937b_4715_ad82_9f5f41f5bff0
-DEFAULTS_PATH=/usr/share/gconf/cinnamon.default.path
-QT_QPA_PLATFORMTHEME=qt5ct
-PWD=/home/alejandro/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises
-HOME=/home/alejandro
-SSH_AGENT_PID=1493
-QT_ACCESSIBILITY=1
-XDG_SESSION_TYPE=x11
-XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/alejandro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
-XDG_SESSION_DESKTOP=cinnamon
-GJS_DEBUG_OUTPUT=stderr
-GTK_MODULES=gail:atk-bridge
-VTE_VERSION=5202
-SHELL=/bin/bash
-TERM=xterm-256color
-XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
-XDG_CURRENT_DESKTOP=X-Cinnamon
-GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
-GNOME_TERMINAL_SERVICE=:1.88
-SHLVL=2
-XDG_SEAT=seat0
-LANGUAGE=en_US
-JRAPL_PATH=/home/alejandro/Documents/Projects/jRAPL/jRaplSourceCode
-GDMSESSION=cinnamon
-GNOME_DESKTOP_SESSION_ID=this-is-deprecated
-LOGNAME=alejandro
-DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-XDG_RUNTIME_DIR=/run/user/1000
-XAUTHORITY=/home/alejandro/.Xauthority
-XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
-XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
-PATH=/home/alejandro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-CINNAMON_VERSION=4.0.8
-GJS_DEBUG_TOPICS=JS ERROR;JS LOG
-SESSION_MANAGER=local/alejandro-Lenovo-ideapad-120S-11IAP:@/tmp/.ICE-unix/1427,unix/alejandro-Lenovo-ideapad-120S-11IAP:/tmp/.ICE-unix/1427
-LESSOPEN=| /usr/bin/lesspipe %s
-_=/usr/bin/env
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echo $HOME
-/home/alejandro
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echom $PATH
-
-Command 'echom' not found, did you mean:
-
-  command 'echo' from deb coreutils
-
-Try: sudo apt install <deb name>
-
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echom $PATH[1P $PATH
-/home/alejandro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echo $xxx
-
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ xxx=213[K[K[K123
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ xxx=123echo $xxx
-123
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ env | grep xxx
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ export xxx
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ env | grep xx
-[01;31m[Kxx[m[Kx=123
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echot =456
-
-Command 'echot' not found, did you mean:
-
-  command 'echo' from deb coreutils
-
-Try: sudo apt install <deb name>
-
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ exportxx[K[K xx=456
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ export xx=456[3Pchot =456nv | grep xx
-[01;31m[Kxx[m[K=456
-[01;31m[Kxx[m[Kx=123
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ =[Kp=$PATH
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echo $p
-/home/alejandro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echo $PATH
-/home/alejandro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ PATH=''
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ echo $PATH
-
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ ls
-bash: ls: No such file or directory
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ PATH=$p
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ e[Kls
-[0m[01;34m3-subshells[0m
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../lab8.LOG[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ ls ; wc *
-[0m[01;34m3-subshells[0m
-wc: 3-subshells: Is a directory
-      0       0       0 3-subshells
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ wc *
-wc: 3-subshells: Is a directory
-      0       0       0 3-subshells
-]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab8/exercises[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab8/exercises[00m$ exit
-
-Script done on 2020-03-26 14:56:51-0400
