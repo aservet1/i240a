@@ -9,6 +9,8 @@
 #include "ops.hh"
 #include "sorts.hh"
 
+using namespace std;
+
 /** Return vector of n int's read from filePath into a[].  If filePath
  *  is "-" read from stdin.  If n < 0, read entire contents of file.
  */
@@ -41,7 +43,7 @@ readIntsFromFile(const std::string filePath, int n)
   return ints;
 }
 
-//type for pointer to a sorting function 
+//type for pointer to a sorting function
 using SortP = void (*)(int a[], int n, Ops* ops);
 
 //map algorithm name to corresponding function
@@ -70,7 +72,7 @@ getSort(std::string name)
     if (algName == name) return algorithms[i].sort;
     if (names.size() > 0) names += "|";
     names += algName;
-  } 
+  }
   std::cerr << "unknown algorithm " << name
 	    << " must be one of " << names << std::endl;
   std::exit(1);
@@ -92,8 +94,9 @@ go(SortP sort, std::string filePath, bool isVerbose, int nRead)
   std::vector<int> ints = readIntsFromFile(filePath, nRead);
   int* a = ints.data();
   int n = ints.size();
-  Ops ops;
+  MyOps ops;
   sort(a, n, &ops);
+  std::cout << nRead << "\t" << ops.nCompares << "\t" << ops.nSwaps << std::endl;
   if (isVerbose) outArray(a, n);
 }
 
@@ -110,6 +113,9 @@ main(int argc, char* argv[]) {
   const std::string filePath(argv[2 + nVerbose]);
   SortP sort = getSort(algorithm);
   int sizeArgsIndex = 3 + nVerbose;
+
+  cout << "n\tcompares\tswaps" << endl;
+
   if (sizeArgsIndex == argc) {
     go(sort, filePath, isVerbose, -1);
   }
@@ -119,4 +125,5 @@ main(int argc, char* argv[]) {
       go(sort, filePath, isVerbose, nRead);
     }
   }
+
 }
