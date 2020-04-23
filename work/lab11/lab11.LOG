@@ -40,3 +40,752 @@ sample.cc  sample.hh
 ]0;aservet1@remote05: ~/i240a/work/lab11/solution[01;32maservet1@remote05[00m:[01;34m~/i240a/work/lab11/solution[01;31m (master)[00m$ exit
 
 Script done on 2020-04-23 15:04:26-04:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-04-23 15:05:29-0400
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11[00m$ ls
+lab11.LOG  [0m[01;34msolution[0m
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11[00m$ cd solution/
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ clear
+[3J[H[2J]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+sample.cc  sample.hh  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ opengui *
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ # Option “-x” is deprecated and might be removed in a later version of gnome-terminal.# 
+# Use “-- ” to terminate the options and put the command line to execute after it.# 
+# Option “-x” is deprecated and might be removed in a later version of gnome-terminal.# 
+# Use “-- ” to terminate the options and put the command line to execute after it.# 
+# Option “-x” is deprecated and might be removed in a later version of gnome-terminal.# 
+# Use “-- ” to terminate the options and put the command line to execute after it.# 
+[K]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ [K]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ scratchgui
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+sample.cc  sample.hh  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ mv stack.hh d[Kstack.hh [K[K[Kcc
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+sample.cc  sample.hh  stack.cc
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ touch[K[K[K[K[Kcodetempl main.cc
+going of filename
+invalid filename: main.cc
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ codetempl main.cc[Kpp
+going of filename
+none exist. will make
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ms[Kv s
+sample.cc  sample.hh  stack.cc   
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ mv ss[Ktack.cc stack.cc [K[K[Khh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+In file included from [01m[Kmain.cpp:6:0[m[K:
+[01m[Kstack.hh:7:10:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KStack::stack_capacity[m[K’
+  int stk[[01;31m[Kstack_capacity[m[K];
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[Kstack.hh:6:23:[m[K [01;36m[Knote: [m[Kdeclared here
+  int stack_capacity = [01;36m[K16[m[K;
+                       [01;36m[K^~[m[K
+[01m[Kstack.hh:[m[K In member function ‘[01m[Kvoid Stack::push(int)[m[K’:
+[01m[Kstack.hh:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kassert[m[K’ was not declared in this scope
+   [01;31m[Kassert[m[K(top < 16);
+   [01;31m[K^~~~~~[m[K
+[01m[Kstack.hh:24:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kqsort[m[K’
+   [01;36m[Kassert[m[K(top < 16);
+   [01;36m[K^~~~~~[m[K
+   [32m[Kqsort[m[K
+[01m[Kstack.hh:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstk[m[K’ was not declared in this scope
+   [01;31m[Kstk[m[K[++top] val;
+   [01;31m[K^~~[m[K
+[01m[Kstack.hh:[m[K In member function ‘[01m[Kint Stack::pop()[m[K’:
+[01m[Kstack.hh:30:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstk[m[K’ was not declared in this scope
+   return [01;31m[Kstk[m[K[top--];
+          [01;31m[K^~~[m[K
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:12:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KStack*[m[K’ to non-scalar type ‘[01m[KStack[m[K’ requested
+  Stack s = [01;31m[Knew Stack()[m[K;
+            [01;31m[K^~~~~~~~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+In file included from [01m[Kmain.cpp:6:0[m[K:
+[01m[Kstack.hh:9:10:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KStack::stack_capacity[m[K’
+  int stk[[01;31m[Kstack_capacity[m[K];
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[Kstack.hh:8:23:[m[K [01;36m[Knote: [m[Kdeclared here
+  int stack_capacity = [01;36m[K16[m[K;
+                       [01;36m[K^~[m[K
+[01m[Kstack.hh:[m[K In member function ‘[01m[Kvoid Stack::push(int)[m[K’:
+[01m[Kstack.hh:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstk[m[K’ was not declared in this scope
+   [01;31m[Kstk[m[K[++top] val;
+   [01;31m[K^~~[m[K
+[01m[Kstack.hh:[m[K In member function ‘[01m[Kint Stack::pop()[m[K’:
+[01m[Kstack.hh:32:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstk[m[K’ was not declared in this scope
+   return [01;31m[Kstk[m[K[top--];
+          [01;31m[K^~~[m[K
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:12:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KStack*[m[K’ to non-scalar type ‘[01m[KStack[m[K’ requested
+  Stack s = [01;31m[Knew Stack()[m[K;
+            [01;31m[K^~~~~~~~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+In file included from [01m[Kmain.cpp:6:0[m[K:
+[01m[Kstack.hh:[m[K In member function ‘[01m[Kvoid Stack::push(int)[m[K’:
+[01m[Kstack.hh:27:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kval[m[K’
+   stk[++top] [01;31m[Kval[m[K;
+              [01;31m[K^~~[m[K
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:12:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KStack*[m[K’ to non-scalar type ‘[01m[KStack[m[K’ requested
+  Stack s = [01;31m[Knew Stack()[m[K;
+            [01;31m[K^~~~~~~~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:12:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KStack*[m[K’ to non-scalar type ‘[01m[KStack[m[K’ requested
+  Stack s = [01;31m[Knew Stack()[m[K;
+            [01;31m[K^~~~~~~~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:16:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Ks[m[K’, which is of pointer type ‘[01m[KStack*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   s.[01;31m[Kpush[m[K(n)
+     [01;31m[K^~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:17:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kwhile[m[K’
+  [01;31m[Kwhile[m[K(!s->isEmpty()) cout << s->pop() << " ";
+  [01;31m[K^~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:17:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kwhile[m[K’
+  [01;31m[Kwhile[m[K(!s->isEmpty()) {
+  [01;31m[K^~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kwhile[m[K’
+  [01;31m[Kwhile[m[K(!s->isEmpty()) {
+  [01;31m[K^~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ g++ main.cpp 
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kwhile[m[K’
+  [01;31m[Kwhile[m[K(!s->isEmpty()) {
+  [01;31m[K^~~~~[m[K
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ clear
+[3J[H[2J]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ exit
+
+Script done on 2020-04-23 15:53:28-0400
+Script started on 2020-04-23 18:23:22-0400
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11[00m$ cd solution/
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32ma.out[0m  main.cpp  sample.cc  sample.hh  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ioeng[K[K[K[K[Kopengui main.cpp 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ # Option “-x” is deprecated and might be removed in a later version of gnome-terminal.# 
+# Use “-- ” to terminate the options and put the command line to execute after it.# 
+[K]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ [K]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32ma.out[0m  main.cpp  sample.cc  sample.hh  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ scratchgui
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ 
+(xed:14945): Gdk-[1;35mCRITICAL[0m **: [34m18:23:45.617[0m: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+gedit s[Kstack.hh &
+[1] 14969
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32ma.out[0m  main.cpp  sample.cc  sample.hh  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ nano Makefile
+[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[37;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                   Makefile                                                                              [1;168H(B[m[38d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39d(B[0;7m^X(B[m Exit[39;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[3d[49m(B[m[?12l[?25h[?25l[1;160H(B[0;7mModified(B[m[3da[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l(B[0;1m[34mall:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l m[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lk[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l [37d[K[3;21H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lk[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25lh[?12l[?25h[?25l[4d[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K g[?12l[?25h[?25lc[?12l[?25h[?25lc[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l m[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lo[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l m[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[38;17H[26X[38;43H(B[0;7mM-D(B[m DOS Format[18X[38;81H    (B[0;7mM-A(B[m Append          [38;113H[14X[38;127H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[17G[26X[39;43H(B[0;7mM-M(B[m Mac Format[28X[39;85H(B[0;7mM-P(B[m Prepend         [39;113H[14X[39;127H(B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: Makefile                                                                                                                                             [37;1H(B[m[37;29H[?12l[?25h[?25l[K[1;168H[1;160H(B[0;7m        (B[m[37;77H(B[0;7m[ Wrote 2 lines ](B[m[38;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[4;29H[?12l[?25h[?25l[37d[J[39;169H[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+gcc main.cpp -o main
+/tmp/cceSvXcx.o: In function `main':
+main.cpp:(.text+0x16): undefined reference to `operator new(unsigned long)'
+main.cpp:(.text+0x71): undefined reference to `std::cout'
+main.cpp:(.text+0x76): undefined reference to `std::ostream::operator<<(int)'
+main.cpp:(.text+0x85): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+main.cpp:(.text+0x8e): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+main.cpp:(.text+0x98): undefined reference to `std::cout'
+main.cpp:(.text+0x9d): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/tmp/cceSvXcx.o: In function `__static_initialization_and_destruction_0(int, int)':
+main.cpp:(.text+0xd2): undefined reference to `std::ios_base::Init::Init()'
+main.cpp:(.text+0xe7): undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ nano Makefile 
+[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[37;77H(B[0;7m[ Reading File ](B[m[37;83H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                   Makefile                                                                              [1;168H(B[m[38d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39d(B[0;7m^X(B[m Exit[39;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[3d(B[0;1m[34mall:[39m(B[m main.cpp stack.hh[4;9Hgcc main.cpp -o main[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[4;29H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;160H(B[0;7mModified(B[m[4;10H[1Pc[?12l[?25h[?25l[1P[?12l[?25h[?25l+ main.cpp -o main[4;11H[?12l[?25h[?25l++ main.cpp -o main[4;12H[?12l[?25h[?25l[38;17H[26X[38;43H(B[0;7mM-D(B[m DOS Format[18X[38;81H    (B[0;7mM-A(B[m Append          [38;113H[14X[38;127H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[17G[26X[39;43H(B[0;7mM-M(B[m Mac Format[28X[39;85H(B[0;7mM-P(B[m Prepend         [39;113H[14X[39;127H(B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: Makefile                                                                                                                                             [37;1H(B[m[37;29H[?12l[?25h[?25l[K[1;168H[1;160H(B[0;7m        (B[m[37;77H(B[0;7m[ Wrote 2 lines ](B[m[38;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[4;12H[?12l[?25h[?25l[37d[J[39;169H[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ nano Makefile make[K
+g++ main.cpp -o main
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./main 
+9 8 7 6 5 4 3 2 1 0 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32ma.out[0m  [01;32mmain[0m  main.cpp  Makefile  sample.cc  sample.hh  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ rm sample.hh [K[K[K*
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32ma.out[0m  [01;32mmain[0m  main.cpp  Makefile  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ main.cpp -o main
+In file included from [01m[Kmain.cpp:2:0[m[K:
+[01m[Kstack.hh:20:19:[m[K [01;31m[Kerror: [m[Kinvalid constructor; you probably meant ‘[01m[KStack (const Stack&)[m[K’
+  Stack(Stack s) = [01;31m[Kdelete[m[K;
+                   [01;31m[K^~~~~~[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ main.cpp -o main
+In file included from [01m[Kmain.cpp:2:0[m[K:
+[01m[Kstack.hh:20:25:[m[K [01;31m[Kerror: [m[Kinvalid constructor; you probably meant ‘[01m[KStack (const Stack&)[m[K’
+  Stack(const Stack s) = [01;31m[Kdelete[m[K;
+                         [01;31m[K^~~~~~[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make[2Plsmake
+lsmake: command not found
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ main.cpp -o main
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./a.out 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./a.out [4Pmake
+g++ main.cpp -o main
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./a.out 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./a.out [4Pmake
+g++ main.cpp -o main
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make./a.out 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32ma.out[0m  [01;32mmain[0m  main.cpp  Makefile  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ rm a.out 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ main.cpp -o main
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ d[K,.[K[Krm a.o[K[K[K[K[K[K./main 
+hello world
+9 8 7 6 5 4 3 2 1 0 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+[0m[01;32mmain[0m  main.cpp  Makefile  stack.hh
+[1]+  Done                    gedit stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ mv main.cpp balanced.cpp
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ls
+balanced.cpp  [0m[01;32mmain[0m  Makefile  stack.hh
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ rm main 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ nna[K[Kano Makefile 
+[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;77H(B[0;7m[ Reading File ](B[m[37;83H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                   Makefile                                                                              [1;168H(B[m[38d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39d(B[0;7m^X(B[m Exit[39;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[3d(B[0;1m[34mall:[39m(B[m main.cpp stack.hh[4;9Hg++ main.cpp -o main[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[4;29H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;160H(B[0;7mModified(B[m[4;16H[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lb.cpp -o main[4;14H[?12l[?25h[?25la.cpp -o main[4;15H[?12l[?25h[?25ll.cpp -o main[4;16H[?12l[?25h[?25la.cpp -o main[4;17H[?12l[?25h[?25ln.cpp -o main[4;18H[?12l[?25h[?25lc.cpp -o main[4;19H[?12l[?25h[?25le.cpp -o main[37d[K[4;20H[?12l[?25h[?25l.[?12l[?25h[?25l[?12l[?25h[?25ld.cpp -o main[4;21H[?12l[?25h[?25l[4;33H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l b[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l[38;17H[26X[38;43H(B[0;7mM-D(B[m DOS Format[18X[38;81H    (B[0;7mM-A(B[m Append          [38;113H[14X[38;127H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[17G[26X[39;43H(B[0;7mM-M(B[m Mac Format[28X[39;85H(B[0;7mM-P(B[m Prepend         [39;113H[14X[39;127H(B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: Makefile                                                                                                                                             [37;1H(B[m[37;29H[?12l[?25h[?25l[K[1;168H[1;160H(B[0;7m        (B[m[37;77H(B[0;7m[ Wrote 2 lines ](B[m[38;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[4;37H[?12l[?25h[?25l[3;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;160H(B[0;7mModified(B[m[3;9H[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lb.cpp stack.hh[7G[?12l[?25h[?25la.cpp stack.hh[8G[?12l[?25h[?25ll.cpp stack.hh[3;9H[?12l[?25h[?25la.cpp stack.hh[3;10H[?12l[?25h[?25ln.cpp stack.hh[3;11H[?12l[?25h[?25lc.cpp stack.hh[3;12H[?12l[?25h[?25le.cpp stack.hh[3;13H[?12l[?25h[?25ld.cpp stack.hh[37d[K[3;14H[?12l[?25h[?25l[38;17H[26X[38;43H(B[0;7mM-D(B[m DOS Format[18X[38;81H    (B[0;7mM-A(B[m Append          [38;113H[14X[38;127H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[17G[26X[39;43H(B[0;7mM-M(B[m Mac Format[28X[39;85H(B[0;7mM-P(B[m Prepend         [39;113H[14X[39;127H(B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: Makefile                                                                                                                                             [37;1H(B[m[37;29H[?12l[?25h[?25l[K[1;168H[1;160H(B[0;7m        (B[m[37;77H(B[0;7m[ Wrote 2 lines ](B[m[38;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[3;14H[?12l[?25h[?25l[37d[J[39;169H[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ male[K[Kke
+g++ balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./balanced 
+9 8 7 6 5 4 3 2 1 0 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ gedit balanced.cpp &
+[1] 15271
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ gedit balanced.cpp &[9P./balanced [7Pmake
+g++ balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./balanced '','[1P'<'[C ''['[C ''>' '[1P'[C '']'
+< [ > ] 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./balanced '<' '[' '>' ']'make[K
+g++ balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kchar getComplement(char)[m[K’:
+[01m[Kbalanced.cpp:39:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ was not declared in this scope
+  [01;31m[Kunordered_map[m[K<char> complements;
+  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:39:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+  unordered_map<[01;31m[Kchar[m[K> complements;
+                [01;31m[K^~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomplements[m[K’ was not declared in this scope
+  [01;31m[Kcomplements[m[K['('] = ')';
+  [01;31m[K^~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetComplement[m[K’
+  [01;36m[Kcomplements[m[K['('] = ')';
+  [01;36m[K^~~~~~~~~~~[m[K
+  [32m[KgetComplement[m[K
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:57:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+   char c = [01;31m[Kargv[i][m[K;
+            [01;31m[K~~~~~~^[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make./balanced '<' '[' '>' ']'make[Kmak[K[K
+
+Command 'makem' not found, did you mean:
+
+  command 'make' from deb make
+  command 'make' from deb make-guile
+  command 'makeg' from deb xutils-dev
+
+Try: sudo apt install <deb name>
+
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kchar getComplement(char)[m[K’:
+[01m[Kbalanced.cpp:39:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ was not declared in this scope
+  [01;31m[Kunordered_map[m[K<char> complements(8);
+  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:39:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+  unordered_map<[01;31m[Kchar[m[K> complements(8);
+                [01;31m[K^~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomplements[m[K’ was not declared in this scope
+  [01;31m[Kcomplements[m[K['('] = ')';
+  [01;31m[K^~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetComplement[m[K’
+  [01;36m[Kcomplements[m[K['('] = ')';
+  [01;36m[K^~~~~~~~~~~[m[K
+  [32m[KgetComplement[m[K
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:57:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+   char c = [01;31m[Kargv[i][m[K;
+            [01;31m[K~~~~~~^[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kchar getComplement(char)[m[K’:
+[01m[Kbalanced.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  std::[01;31m[Kunordered_map[m[K<char> complements;
+       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:39:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+  std::unordered_map<[01;31m[Kchar[m[K> complements;
+                     [01;31m[K^~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomplements[m[K’ was not declared in this scope
+  [01;31m[Kcomplements[m[K['('] = ')';
+  [01;31m[K^~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetComplement[m[K’
+  [01;36m[Kcomplements[m[K['('] = ')';
+  [01;36m[K^~~~~~~~~~~[m[K
+  [32m[KgetComplement[m[K
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:57:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+   char c = [01;31m[Kargv[i][m[K;
+            [01;31m[K~~~~~~^[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kchar getComplement(char)[m[K’:
+[01m[Kbalanced.cpp:39:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ was not declared in this scope
+  [01;31m[Kunordered_map[m[K<char,char> complements;
+  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:39:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+  unordered_map<[01;31m[Kchar[m[K,char> complements;
+                [01;31m[K^~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomplements[m[K’ was not declared in this scope
+  [01;31m[Kcomplements[m[K['('] = ')';
+  [01;31m[K^~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:40:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetComplement[m[K’
+  [01;36m[Kcomplements[m[K['('] = ')';
+  [01;36m[K^~~~~~~~~~~[m[K
+  [32m[KgetComplement[m[K
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:57:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+   char c = [01;31m[Kargv[i][m[K;
+            [01;31m[K~~~~~~^[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:58:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+   char c = [01;31m[Kargv[i][m[K;
+            [01;31m[K~~~~~~^[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./balanced 
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./balanced [7Pmakem[K./balanced '<' '[' '>' ']'make[K./balanced '<' '[' '>' ']'
+<
+[
+>
+]
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:70:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrlen[m[K’ was not declared in this scope
+   if ([01;31m[Kstrlen[m[K(argv[i]) != 1)
+       [01;31m[K^~~~~~[m[K
+[01m[Kbalanced.cpp:70:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmbrlen[m[K’
+   if ([01;36m[Kstrlen[m[K(argv[i]) != 1)
+       [01;36m[K^~~~~~[m[K
+       [32m[Kmbrlen[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ make
+g++ balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[00m$ ./balanced [K]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS240/i2400a/work/lab11/solution[00m$ ./balanced '(' '{[K[' '[' ']' ']' ')'
+unbalanced at argument 4
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ nano Makefile 
+[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;34H(B[0;7m[ Reading File ](B[m[37;40H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                        Makefile                                   [1;82H(B[m[38d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[39d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[37d[3d(B[0;1m[34mall:[39m(B[m balanced.cpp stack.hh[4;9Hg++ balanced.cpp -o balanced[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[4;9H[?12l[?25h[?25l[A[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l[4d[?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25l[1;74H(B[0;7mModified(B[m[4;13H-balanced.cpp -o balanced[4;14H[?12l[?25h[?25lgbalanced.cpp -o balanced[4;15H[?12l[?25h[?25l balanced.cpp -o balanced[4;16H[?12l[?25h[?25l[38;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[39;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: Makefile                                                       [37;1H(B[m[37;29H[?12l[?25h[?25l[K[1;82H[1;74H(B[0;7m        (B[m[37;34H(B[0;7m[ Wrote 2 lines ](B[m[38;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[39;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[37d[4;16H[?12l[?25h[?25l[37d[J[39;83H[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ mae[Kke
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ gdb balanced 
+GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from balanced...done.
+(gdb) start ''['[C ''('[1P[1@([C[C[C[C[1P'['[C '[' ']'']' ']'[C[C[C ')'
+Temporary breakpoint 1 at 0x1138: file balanced.cpp, line 67.
+Starting program: /home/alejandro/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution/balanced '(' '[' '[' ']' ']' ')'
+
+Temporary breakpoint 1, main (argc=7, argv=0x7fffffffde08) at balanced.cpp:67
+67		Stack* s = new Stack();
+(gdb) n
+69		for (int i = 1; i < argc; i++)
+(gdb) n][K
+71			if (strlen(argv[i]) != 1)
+(gdb) n
+76			char c = argv[i][0];
+(gdb) n
+77			if (!isValid(c))
+(gdb) n
+81			if (isOpener(c))
+(gdb) n
+83				s->push(c);
+(gdb) print c
+$1 = 40 '('
+(gdb) n
+85			if (isCloser(c))
+(gdb) n
+69		for (int i = 1; i < argc; i++)
+(gdb) m[Kn
+71			if (strlen(argv[i]) != 1)
+(gdb) n
+76			char c = argv[i][0];
+(gdb) n
+77			if (!isValid(c))
+(gdb) print c
+$2 = 91 '['
+(gdb) n
+81			if (isOpener(c))
+(gdb) n
+83				s->push(c);
+(gdb) n
+85			if (isCloser(c))
+(gdb) n
+69		for (int i = 1; i < argc; i++)
+(gdb) n
+71			if (strlen(argv[i]) != 1)
+(gdb) n
+76			char c = argv[i][0];
+(gdb) n
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+83				s->push(c);
+(gdb) print c
+$3 = 91 '['
+(gdb) 
+$4 = 91 '['
+(gdb) print cn[K
+85			if (isCloser(c))
+(gdb) 
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) print c
+$5 = 93 ']'
+(gdb) 
+$6 = 93 ']'
+(gdb) 
+$7 = 93 ']'
+(gdb) print cn[K
+81			if (isOpener(c))
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+87				if (s->isEmpty() || c != s->pop())
+(gdb) print s.)[K[K->isEmpl[Kty()
+$8 = false
+(gdb) print s->po[Kop()
+$9 = 91
+(gdb) print s->pop()
+$10 = 91
+(gdb) print s->pop()
+$11 = 40
+(gdb) print s->pop()
+$12 = 0
+(gdb) print s->pop()
+$13 = 81
+(gdb) print s->pop()
+$14 = 0
+(gdb) print s->pop()
+$15 = 0
+(gdb) print s->pop()
+$16 = 0
+(gdb) print s->pop()
+$17 = 0
+(gdb) print s->pop()
+$18 = 0
+(gdb) print s->pop()
+$19 = 0
+(gdb) print s->pop()
+$20 = 0
+(gdb) print s->pop()
+$21 = 0
+(gdb) print s->pop()
+$22 = 0
+(gdb) print s->pop()
+$23 = 0
+(gdb) print s->pop()
+$24 = 0
+(gdb) print s->pop()
+$25 = 0
+(gdb) k
+Kill the program being debugged? (y or n) y
+(gdb) kprint s->pop()isEmpty()[C[C[C[C[C[Cn[Kprint cn[Kprint cn[Kprint cn[Kprint cn[Kstart '(' '[' '[' ']' ']' ')'[C[C[C[C[C[Cn[Kstart '(' '[' '[' ']' ']' ')'
+Temporary breakpoint 2 at 0x555555555138: file balanced.cpp, line 67.
+Starting program: /home/alejandro/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution/balanced '(' '[' '[' ']' ']' ')'
+
+Temporary breakpoint 2, main (argc=7, argv=0x7fffffffde08) at balanced.cpp:67
+67		Stack* s = new Stack();
+(gdb) l
+62		exit(1);
+63	}
+64	
+65	int main(int argc, char *argv[])
+66	{
+67		Stack* s = new Stack();
+68	
+69		for (int i = 1; i < argc; i++)
+70		{
+71			if (strlen(argv[i]) != 1)
+(gdb) l
+72			{
+73				cout << "invalid arg: " << argv[i] << endl;
+74				cout << "only pass in chars" << endl;
+75			}
+76			char c = argv[i][0];
+77			if (!isValid(c))
+78			{
+79				exit_invalid(c);
+80			}
+81			if (isOpener(c))
+(gdb) n
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+83				s->push(c);
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+83				s->push(c);
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+83				s->push(c);
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+87				if (s->isEmpty() || c != s->pop())
+(gdb) 
+89					exit_unbalanced(i);
+(gdb) print c
+$26 = 93 ']'
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 15765] will be killed.
+
+Quit anyway? (y or n) EOF [assumed Y]
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ gdb balanced make[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ makegdb balanced 
+GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from balanced...done.
+(gdb) start '[' '[K[K[K[K(' '[' ']' ']' ')'
+Temporary breakpoint 1 at 0x1138: file balanced.cpp, line 67.
+Starting program: /home/alejandro/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution/balanced '(' '[' ']' ']' ')'
+
+Temporary breakpoint 1, main (argc=6, argv=0x7fffffffde08) at balanced.cpp:67
+67		Stack* s = new Stack();
+(gdb) n
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+83				s->push(c);
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) 
+83				s->push(c);
+(gdb) 
+85			if (isCloser(c))
+(gdb) 
+69		for (int i = 1; i < argc; i++)
+(gdb) 
+71			if (strlen(argv[i]) != 1)
+(gdb) 
+76			char c = argv[i][0];
+(gdb) 
+77			if (!isValid(c))
+(gdb) 
+81			if (isOpener(c))
+(gdb) print c
+$1 = 93 ']'
+(gdb) print stack->peek()
+No symbol "stack" in current context.
+(gdb) print stack->peek()[1P->peek()[1P->peek()[1P->peek()[1P->peek()
+Couldn't find method Stack::peek
+(gdb) print s->peek()l()
+Cannot evaluate function -- may be inlined
+(gdb) n
+85			if (isCloser(c))
+(gdb) 
+87				if (s->isEmpty() || c != s->pop())
+(gdb) print s->pop()
+$2 = 91
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 15801] will be killed.
+
+Quit anyway? (y or n) EOF [assumed Y]
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ gdb balanced make[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ makegdb balanced make[Kgdb balanced make[Knano Makefile ./balanced '(' '[' '[' ']' ']' ')'
+unbalanced at argument 4
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[Kgdb balanced make[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make./balanced '(' '[' '[' ']' ']' ')'
+popped [
+unbalanced at argument 4
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make./balanced '(' '[' '[' ']' ']' ')'
+popped [ c ]
+unbalanced at argument 4
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+g++ -g balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:88:58:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kchar[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+    cout << "popped " << p << " c " << c << " " << c != [01;31m[Kp << endl[m[K;
+                                                        [01;31m[K~~^~~~~~~[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make./balanced '(' '[' '[' ']' ']' ')'
+popped [ c ] 1
+unbalanced at argument 4
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+g++ -g balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:89:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstack[m[K’ was not declared in this scope
+    if (s->isEmpty() || [01;31m[Kstack[m[K->pop() != getComlpement(c))
+                        [01;31m[K^~~~~[m[K
+[01m[Kbalanced.cpp:89:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KStack[m[K’
+    if (s->isEmpty() || [01;36m[Kstack[m[K->pop() != getComlpement(c))
+                        [01;36m[K^~~~~[m[K
+                        [32m[KStack[m[K
+[01m[Kbalanced.cpp:89:40:[m[K [01;31m[Kerror: [m[K‘[01m[KgetComlpement[m[K’ was not declared in this scope
+    if (s->isEmpty() || stack->pop() != [01;31m[KgetComlpement[m[K(c))
+                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Kbalanced.cpp:89:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetComplement[m[K’
+    if (s->isEmpty() || stack->pop() != [01;36m[KgetComlpement[m[K(c))
+                                        [01;36m[K^~~~~~~~~~~~~[m[K
+                                        [32m[KgetComplement[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make
+g++ -g balanced.cpp -o balanced
+[01m[Kbalanced.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kbalanced.cpp:89:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstack[m[K’ was not declared in this scope
+    if (s->isEmpty() || [01;31m[Kstack[m[K->pop() != getComplement(c))
+                        [01;31m[K^~~~~[m[K
+[01m[Kbalanced.cpp:89:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KStack[m[K’
+    if (s->isEmpty() || [01;36m[Kstack[m[K->pop() != getComplement(c))
+                        [01;36m[K^~~~~[m[K
+                        [32m[KStack[m[K
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./make./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./balanced '(' '[' '[' ']' ']' ')'
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ex[Kcho ?[K$/[K?
+0
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ makeecho $?[3Pmakeecho $?./balanced '(' '[' '[' ']' ']' ')'
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[Kecho $?
+0
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ echo $?./balanced '(' '[' '[' ']' ']' ')'[1P']'
+unbalanced at argument 6
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '[' '[' ']' ']' ']'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?[K
+1
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ echo $?./balanced '(' '[' '[' ']' ']' ']'[1P[1@<[C[C[C[C[C[C[C[1@'[1@{[C[1@'[1@ [C[1@'[1@}[C[1@'[1@ [C[C[C[C[C[C[1P[1@>[C[C[C[C[1P')'
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '<' '[' '{' '}' ']' '>' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?[K
+0
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ echo $?./balanced '(' '<' '[' '{' '}' ']' '>' ')'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K)' '[' ']'
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' ')' '[' ']'echo $?[K
+0
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ echo $?./balanced '(' ')' '[' ']'[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K''<'[C ''['[C ''{'[C ''}'[C '']'[C ''>'[C
+unbalanced at argument 8
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '<' '[' '{' '}' ']' '>'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?[K./balanced '(' ')' '[' ']'echo $?[K./balanced '(' '<' '[' '{' '}' ']' '>' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?[K./balanced '(' '[' '[' ']' ']' ']'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?[K./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[Kecho $?./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $?[K./balanced '(' '[' '[' ']' ']' ')'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make./balanced '(' '<' '[' '{' '}' ']' '>'
+unbalanced at argument 7
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '<' '[' '{' '}' ']' '>'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./balanced '(' '<' '[' '{' '}' ']' '>'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K@' '')'
+invalid delimiter @
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ ./balanced '(' '@' ')'<' '[' '{' '}' ']' '>'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K
+g++ -g balanced.cpp -o balanced
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ make./balanced '(' '@' ')'<' '[' '{' '}' ']' '>'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./balanced '(' '<' '[' '{' '}' ']' '>'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./balanced '(' '<' '[' '{' '}' ']' '>'@' ')'[K
+invalid delimiter '@'
+]0;alejandro@alejandro-Lenovo-ideapad-120S-11IAP: ~/Documents/BingFiles/Spring2020/CS240/i240a/work/lab11/solution[01;32malejandro@alejandro-Lenovo-ideapad-120S-11IAP[00m:[01;34m~/Documents/BingFiles/Spring2020/CS2400/i240a/work/lab11/solution[00m$ exit
+
+Script done on 2020-04-23 19:32:10-0400
