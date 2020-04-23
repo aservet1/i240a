@@ -2,53 +2,9 @@
 #include <unordered_map>
 #include <cstring>
 #include "stack.hh"
+#include "delim-encodings.hh"
 
 using namespace std;
-
-bool isValid(char c)
-{
-	switch (c) {
-	case '(': case '[': case '<': case '{':
-	case ')': case ']': case '>': case '}':
-		return true;
-	default:
-		return false;
-	}
-}
-
-bool isOpener(char c)
-{
-	switch (c) {
-	case '(': case '[': case '<': case '{':
-		return true;
-	default:
-		return false;
-	}
-}
-
-bool isCloser(char c)
-{
-	switch (c) {
-	case ')': case ']': case '>': case '}':
-		return true;
-	default:
-		return false;
-	}
-}
-
-char getComplement(char c)
-{
-	unordered_map<char,char> complements;
-	complements['('] = ')';
-	complements['['] = ']';
-	complements['<'] = '>';
-	complements['{'] = '}';
-	complements['}'] = '{';
-	complements['>'] = '<';
-	complements[']'] = '[';
-	complements[')'] = '(';
-	return complements[c];
-}
 
 void exit_invalid(char c)
 {
@@ -72,6 +28,7 @@ int main(int argc, char *argv[])
 		{
 			cout << "invalid arg: " << argv[i] << endl;
 			cout << "only pass in chars" << endl;
+			exit(1);
 		}
 		char c = argv[i][0];
 		if (!isValid(c))
@@ -97,12 +54,3 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
