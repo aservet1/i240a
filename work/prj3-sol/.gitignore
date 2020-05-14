@@ -1,0 +1,12 @@
+.deps
+heap-test
+main
+multi-queues
+command-test.o
+multi-queues.o
+main.o
+heap-test.o
+job.o
+command.o
+command-stream.o
+heap.o
